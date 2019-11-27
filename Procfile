@@ -1,1 +1,1 @@
-heroku ps:scale web=0
+web: gunicorn gettingstarted.wsgi --bot
