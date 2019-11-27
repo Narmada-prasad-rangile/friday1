@@ -1,1 +1,1 @@
-worker: python bot
+heroku ps:scale web=0
